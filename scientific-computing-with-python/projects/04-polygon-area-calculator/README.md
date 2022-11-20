@@ -1,4 +1,7 @@
 # Polygon Area Calculator
+
+### Project 4/5 - Requirement for FreeCodeCamp Scientific Computing with Python Certification.
+
 A Rectangle class and a Square class, applying object oriented programming. The Square class is a subclass of Rectangle and inherits methods and attributes.
 
 ## Rectangle class
