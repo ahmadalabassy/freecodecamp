@@ -1,3 +1,10 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Nov 14 2022
+
+@author: ahmadalabassy
+"""
+
 def add_time(start, duration, start_day = None):
     start_time, meridiem = start.split()
     start_hrs, start_mins = (int(num) for num in start_time.split(':'))
