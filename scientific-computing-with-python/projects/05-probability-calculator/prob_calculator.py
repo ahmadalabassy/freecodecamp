@@ -18,7 +18,7 @@ class Hat:
             self.contents = []
             return temp
         else:
-            return [self.contents.pop(random.randint(1, len(self.contents)-1)) for ball in range(count)]
+            return [self.contents.pop(random.randint(0, len(self.contents)-1)) for ball in range(count)]
 
 def experiment(hat, expected_balls, num_balls_drawn, num_experiments):
     expected_balls = expected_balls.items()
